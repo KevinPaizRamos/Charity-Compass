@@ -4,9 +4,10 @@ import Login from "./components/login";
 
 function App() {
   return (
-    <>
+    <div>
+      <img className="logo" src="./src/assets/charity compass.png"></img>
       <Login />
-    </>
+    </div>
   );
 }
 
